@@ -3,7 +3,7 @@ import os
 import keyboard
 from colorama import * # type: ignore
 grasstouch = 0
-with open('funnything.txt', 'r') as f:
+with open('./textfiles/funnything.txt', 'r') as f:
     print(f.read())
 
 time.sleep(3)
@@ -35,11 +35,11 @@ with open('./textfiles/grass.txt', 'r') as a:
 while True:
     
     if keyboard.read_key() == "space":
-        print(Fore.RESET + "\ntouched grass! +1")
+        print(Fore.BLUE + Style.BRIGHT + "\nTouched grass! +1")
         grasstouch = grasstouch + 1
     
     if keyboard.read_key() == "p":
-        print(" - you have touched grass " + str(grasstouch) + " times!")
+        print(Fore.RESET + " - you have touched grass " + str(grasstouch) + " times!")
     if grasstouch == 100:
         
         print("YOU HAVE TOUCHED GRASS 100 TIMES!!!!!!!!\n\n")
