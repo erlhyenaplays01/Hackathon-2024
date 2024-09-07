@@ -1,2 +1,2 @@
 # Hackathon-2024
-we will win and stuff
+uhh jsut code for a thing
