@@ -1,0 +1,4 @@
+What would you like to do?
+    [1] Play the game
+    [2] Change username
+    [3] Exit
